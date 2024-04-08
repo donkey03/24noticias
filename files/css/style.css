@@ -1,0 +1,125 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.aviso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.aviso-conteudo {
+    max-width: 90%;
+    text-align: center;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    max-width: 1000px; /* Define a largura máxima do banner */
+    margin: 0 auto; /* Centraliza o banner horizontalmente */
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.img-aviso {
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+
+.img-aviso img {
+    max-width: 90px; 
+    height: auto; 
+}
+
+
+a{ 
+    text-decoration: none;
+    color: #fff;
+}
+
+.ieu{
+    color: #ff7300;
+}
+
+.button-container {
+    position: absolute;
+    bottom: -50px; /* Distância do fundo da imagem */
+    left: 0;
+    right: 0;
+    text-align: center; /* Centraliza os botões horizontalmente */
+}
+
+.btn {
+    padding: 5px 20px;
+    background-color: #ff7300; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none;
+    cursor: pointer;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sobre {
+    text-align: center;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+
+
+.btn:last-child {
+    margin-right: 0;
+}
+
+
+@media (max-width: 768px) {
+    .button-container {
+        bottom: -60px; /* Distância do fundo da imagem em telas menores */
+    }
+
+    .btn {
+        width: 30%; /* Ocupa toda a largura em telas menores */
+    }
+
+    .btn-container {
+        display: flex;
+        justify-content: space-between; /* Centraliza os botões horizontalmente */
+    }
+
+    .btn {
+        padding: 5px 20px;
+        background-color: #ff7300; /* Cor de fundo do botão */
+        color: #fff; /* Cor do texto do botão */
+        border: none;
+        cursor: pointer;
+        margin: 5px; /* Espaçamento entre os botões */
+    }
+}
